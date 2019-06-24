@@ -14,6 +14,7 @@ function set-default-env (){
 
 set-default-env LD_LIBRARY_PATH "lib"
 set-default-env PATH "bin"
+set-default-env CFLAGS "include"
 
 indent() {
   sed -u 's/^/       /'
